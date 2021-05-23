@@ -8,3 +8,4 @@ Full stack:
 - styled-components
 - prop-types
 - eslint config
+- axios

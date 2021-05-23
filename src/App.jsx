@@ -1,5 +1,6 @@
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
-import Home from './pages/Home'
+import HomePage from './pages/Home'
+import LoginPage from './pages/Login'
 import NotFound from './pages/NotFound'
 import Theme from './styles/Theme'
 
@@ -8,7 +9,8 @@ function App() {
     <Theme>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Home} exact />
+          <Route path="/" component={HomePage} exact />
+          <Route path="/login" component={LoginPage} exact />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
