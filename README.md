@@ -7,3 +7,4 @@ Full stack:
 - react-router-dom
 - styled-components
 - prop-types
+- eslint config

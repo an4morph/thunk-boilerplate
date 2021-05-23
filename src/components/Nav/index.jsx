@@ -1,15 +1,13 @@
-import { string } from "prop-types";
+import { string } from 'prop-types'
 
-const Nav = ({ className }) => {
-  return (
-    <div className={className}>
-      Nav
-    </div>
-  );
-}
+const Nav = ({ className }) => (
+  <div className={className}>
+    Nav
+  </div>
+)
 
 Nav.propTypes = {
-  className: string
+  className: string,
 }
 
-export default Nav;
+export default Nav

@@ -1,20 +1,19 @@
-import { string } from "prop-types";
-import styled from "styled-components";
+import { node, string } from 'prop-types'
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
   width: 100%;
-`;
+`
 
-const PageTemplate = ({ children, className }) => {
-  return (
-    <Wrapper className={className}>
-      {children}
-    </Wrapper>
-  );
-}
+const PageTemplate = ({ children, className }) => (
+  <Wrapper className={className}>
+    {children}
+  </Wrapper>
+)
 
 PageTemplate.propTypes = {
-  className: string
+  className: string,
+  children: node,
 }
 
-export default PageTemplate;
+export default PageTemplate

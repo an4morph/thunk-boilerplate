@@ -1,15 +1,13 @@
-import { string } from "prop-types";
+import { string } from 'prop-types'
 
-const Sidebar = ({ className }) => {
-  return (
-    <div className={className}>
-      Sidebar
-    </div>
-  );
-}
+const Sidebar = ({ className }) => (
+  <div className={className}>
+    Sidebar
+  </div>
+)
 
 Sidebar.propTypes = {
-  className: string
+  className: string,
 }
 
-export default Sidebar;
+export default Sidebar

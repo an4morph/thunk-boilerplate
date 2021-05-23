@@ -4,7 +4,7 @@ import GlobalStyle from './global'
 
 const theme = {
   fonts: {
-    primary: 'Open Sans, sans-serif'
+    primary: 'Open Sans, sans-serif',
   },
   colors: {
     text: '#2F2C2B',
